@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f2ec;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 20%;
+    background-color: #252217;
+    z-index: -1;
+}
+
+#cabecalho{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho figure{
+    margin-top: 1.5%;
+    margin-left: 7%;
+}
+
+#cabecalho nav{
+    display: flex;
+    margin-top: 1.5%;
+    margin-right: 20%;
+}
+
+#cabecalho ul{
+    display: flex;
+}
+
+#cabecalho li{
+    padding: 2%;
+    list-style: none;
+}
+
+#cabecalho a{
+    color: #875c14;
+    text-decoration: none;
+}
+
+#cabecalho a:hover{
+    color: #b87d17;
+}
+
+section{
+    float: left;
+    width: 55%;
+}
+
+#museu img{
+    margin: 5em 0em 0em 8em;
+    width: 100%;
+}
+
+.area_postagem{
+    display: flex;
+    width: 55%;
+    margin-left: 7%;
+    color: #875c14;
+}
+
+.postagem{
+    display: block;
+    width: 50%;
+    padding: 1.5%;
+}
+
+.postagem iframe{
+    width: 100%;
+    height: 40%;
+}
+
+.postagem h4{
+    margin-bottom: 1.5%;
+    color:rgb(23, 131, 23)
+    
+}
+
+.postagem p{
+    color:black
+}
+.postagem li{
+    padding-left: 20px;
+    color:black
+}
+
+.postagem a{
+    text-decoration: none;
+    color: #875c14;
+}
+.postagem a:hover{
+    color: #b87d17;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+    margin-top: -38.5%;
+}
+
+#depoimento img{
+    width: 90%;
+}
+
+#divid{
+    width: 90%;
+    min-height: 20px;
+    margin-top: -2px;
+    background-color: #ebe7dd;
+}
+
+#visita{
+    background-color: #cdc8b1;
+    width: 90%;
+    padding: 5%;
+}
+
+#visita h4{
+    color: #875c14;
+}
+
+#visita input{
+    border: solid 1px #875c14;
+}
+
+#visita #data{
+    width: 30%;
+}
+
+#visita #qntd{
+    width: 10%;
+}
+
+#visita div{
+    display: flex;
+    padding: 2%;
+}
+
+#visita button{
+    width: 100%; 
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #e9e9e9;
+    background-color: #9b9271;
+    border: none;
+}
+
+#galeria{
+    width: 90%;
+    background-color: #ebe7dd;
+    padding: 5%;
+}
+
+#galeria h4{
+    color: #875c14;
+}
+
+#fundoFotos{
+    display: flex;
+    width: 90%;
+}
+
+.fotos{
+    display: block;
+    padding-right: 50px;
+}
+
+#fundo img{
+    width: 130%;
+}
+
+#imagem{
+    width: 10%;
+    margin-top: -85px;
+    margin-left: 10px;
+}
+
+#imagemimg{
+    width: 80%;
+}
+
+#divrodape{
+    display: flex;
+    float: inline-end;
+    justify-content: center;
+}
+
